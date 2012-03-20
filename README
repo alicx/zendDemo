@@ -1,3 +1,4 @@
 简易的zendFramework demo
 简介：
-该demo是一个用户帐号的一个管理demo，意在提供给用户设置一个流水帐的记录
+该demo是一个用户帐号的一个管理demo，意在提供给用户设置一个流水帐的记录.
+下载zendFramework框架，将zendframeowkr/library拷贝到zendDemo下。
