@@ -9,7 +9,7 @@ defined('APPLICATION_PATH') || define('APPLICATION_PATH', realpath(dirname(__FIL
 defined('APPLICATION_ENV') || define('APPLICATION_ENV', (getenv('APPLICATION_ENV') ? getenv('APPLICATION_ENV') : 'development'));
 define('ROOT', dirname(__FILE__));
 set_include_path(implode(PATH_SEPARATOR, array(
-    realpath(dirname(dirname(ROOT)) . '/zendFramework/library'),
+    realpath(ROOT . '/library'),
     get_include_path(),
 )));
 
